@@ -58,7 +58,7 @@ body,
   /* background-color:white; */
   margin-bottom: 100px;
   text-align: left;
-
+  margin-left: 5px;
   /* display: grid;
   grid-template-columns: 10% 60% 21% 8%; */
 }
@@ -83,8 +83,9 @@ h1 {
   margin: 10px 10px 5px 5px;
   padding: 10px;
   font-size: 2em;
-  font-weight: normal;
-  font-family: inherit;
+  font-weight: lighter;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial,
+    san-serif;
 }
 
 h2 {
@@ -119,15 +120,13 @@ a {
   margin: 100px;
 }
 
-.about a{
+.about a {
   text-decoration: underline;
 }
 
-.nu a{
+.nu a {
   text-decoration: none;
-
 }
-
 
 /* -- MOBILE -------------------------------------- */
 @media screen and (max-width: 768px) {
@@ -149,5 +148,4 @@ a {
   .contents {
     width: 45vh;
   }
-
-
+}
