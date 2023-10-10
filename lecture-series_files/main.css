@@ -49,9 +49,9 @@ body,
 }
 
 /* -- GRID -------------------------------------- */
-.contents {
+/* .contents {
   padding-top: 0vh;
-}
+} */
 .row {
   width: 100vw;
   height: auto;
@@ -119,6 +119,16 @@ a {
   margin: 100px;
 }
 
+.about a{
+  text-decoration: underline;
+}
+
+.nu a{
+  text-decoration: none;
+
+}
+
+
 /* -- MOBILE -------------------------------------- */
 @media screen and (max-width: 768px) {
   .date {
@@ -130,4 +140,14 @@ a {
     font-size: 6em;
     line-height: 1;
   }
-}
+
+  .about {
+    font-size: 1.5em;
+    margin: 50px;
+  }
+
+  .contents {
+    width: 45vh;
+  }
+
+
