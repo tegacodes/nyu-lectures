@@ -8,7 +8,7 @@ body {
     san-serif;
   margin: 0px;
   padding: 0px;
-  width: 100vh;
+
   overflow-x: hidden !important;
 
   margin-top: 50px;
@@ -58,7 +58,7 @@ body,
   /* background-color:white; */
   margin-bottom: 100px;
   text-align: left;
-  margin-left: 5px;
+  margin-left: 5%;
   /* display: grid;
   grid-template-columns: 10% 60% 21% 8%; */
 }
