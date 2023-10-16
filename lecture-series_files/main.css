@@ -127,6 +127,13 @@ a {
 .nu a {
   text-decoration: none;
 }
+.logos {
+  position: fixed;
+  display: flex;
+  flex-flow: column;
+  right: 0px;
+  top: 0px;
+}
 
 /* -- MOBILE -------------------------------------- */
 @media screen and (max-width: 768px) {
