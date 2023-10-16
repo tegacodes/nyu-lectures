@@ -129,8 +129,8 @@ a {
 }
 .logos {
   position: fixed;
-  display: flex;
-  flex-flow: column;
+  /* display: flex;
+  flex-flow: column; */
   right: 0px;
   top: 0px;
 }
