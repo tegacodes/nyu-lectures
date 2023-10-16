@@ -131,8 +131,13 @@ a {
   position: fixed;
   /* display: flex;
   flex-flow: column; */
+
   right: 0px;
   top: 0px;
+}
+
+.logos img {
+  width: 120px;
 }
 
 /* -- MOBILE -------------------------------------- */
@@ -154,5 +159,9 @@ a {
 
   .contents {
     width: 45vh;
+  }
+
+  .logos img {
+    width: 80px;
   }
 }
