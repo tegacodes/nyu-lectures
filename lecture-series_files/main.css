@@ -129,8 +129,8 @@ a {
 }
 .logos {
   position: fixed;
-  /* display: flex;
-  flex-flow: column; */
+  display: flex;
+  flex-flow: row;
 
   right: 0px;
   top: 0px;
@@ -161,6 +161,10 @@ a {
     width: 45vh;
   }
 
+  .logos {
+    display: flex;
+    flex-flow: row;
+  }
   .logos img {
     width: 80px;
   }
